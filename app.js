@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 // Get request with query parameters
-app.get("/person", (req, res) => {
+app.get("/api", (req, res) => {
   const { slack_name, track } = req.query;
 
   // Get the current day of the week
