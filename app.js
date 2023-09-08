@@ -29,8 +29,9 @@ app.get("/person", (req, res) => {
     current_day: currentDay,
     utc_time: utcTime,
     track,
-    github_file_url: "https://github.com/vestertech",
-    github_repo_url: "https://github.com/vestertech/",
+    github_file_url:
+      "https://github.com/Vestertech/HNGendpoint/blob/master/app.js",
+    github_repo_url: "https://github.com/vestertech/HNGendpoint",
     status_code: 200,
   };
 
